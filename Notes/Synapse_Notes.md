@@ -1,47 +1,54 @@
-📘 Azure Synapse Analytics Notes
+# Azure Synapse Analytics Notes
 
-🔹 What is Azure Synapse Analytics?
-Prime Purpose: Data Warehousing
-It is an end-to-end analytics solution.
+## What is Azure Synapse Analytics?
+Azure Synapse Analytics is an end-to-end analytics solution primarily used for data warehousing.
 
-👉 Meaning:
-You can perform everything under one umbrella:
+## Overview
+Azure Synapse allows you to perform multiple data operations in one place:
+- Data Ingestion
+- Data Transformation
+- Data Storage
+- Data Analytics
 
-Data Ingestion
-Data Transformation
-Data Storage
-Data Analytics
-🔹 Key Capabilities
-1. Data Integration
-Azure Synapse has Azure Data Factory (ADF) integrated.
-Used for:
-Loading data from different sources
-Creating pipelines
+## Key Capabilities
 
-👉 Example:
+### 1. Data Integration
+Azure Synapse integrates with Azure Data Factory (ADF).
 
+**Use cases:**
+- Load data from different sources
+- Create and manage pipelines
+
+**Example:**
 Load data from:
-SQL Server
-APIs
-Blob Storage
-2. Data Transformation
-Uses Spark Pools
-You can create notebooks (similar to Databricks)
+- SQL Server
+- APIs
+- Blob Storage
 
-👉 Example:
+---
 
-Clean raw CSV data
-Apply transformations using PySpark
-3. Data Warehousing (⭐ Core Feature)
-Uses SQL Pools
-Designed for:
-OLAP workloads (large-scale analytics)
+### 2. Data Transformation
+Uses Spark Pools.
 
-👉 Earlier:
+You can create notebooks similar to Databricks.
 
-We used Azure SQL Database
+**Example:**
+- Clean raw CSV data
+- Apply transformations using PySpark
 
-👉 Now:
+---
 
-Synapse provides SQL Pools for large data
+### 3. Data Warehousing (Core Feature)
+Uses SQL Pools.
 
+Designed for OLAP workloads (large-scale analytics).
+
+---
+
+## Comparison
+
+### Earlier
+We used Azure SQL Database.
+
+### Now
+Synapse provides SQL Pools for handling large-scale data.
