@@ -181,8 +181,5 @@ A distributed engine consists of control and compute nodes.
 - Azure Data Lake (created by us)
 
 **Managed Storage:**
-- Created during workspace setup
-
-**Stores:**
-- Metadata
-- Internal data
+- Created during synapse workspace setup
+- Stores Metadata and Internal data
